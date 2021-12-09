@@ -20,6 +20,6 @@ class Core
     //  Gets the requested url
     public function getUrl()
     {
-        //echo $_GET['url'];
+        echo $_GET['url'];
     }
 }

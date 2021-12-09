@@ -3,5 +3,3 @@
 
     //  Instantiate Core Library
     $init = new Core();
-
-    echo 'PHP MVC Framework';
