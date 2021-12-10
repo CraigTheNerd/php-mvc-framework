@@ -23,5 +23,6 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 docker-compose.override.yml
+.DS_Store
 /.idea
 /.vscode
