@@ -4,7 +4,7 @@
 
 <ul>
     <?php foreach($data['posts'] as $post) : ?>
-        <li style="list-style-type: none">
+        <li>
             <?php echo $post->title; ?>
         </li>
     <?php endforeach; ?>
