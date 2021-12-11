@@ -3,19 +3,15 @@ class Pages extends Controller
 {
     public function __construct()
     {
-        //
-        $this->postModel = $this->model('Post');
+        //  Load models here
     }
 
     //  Index method as default method
     public function index()
     {
-        $posts = $this->postModel->getPosts();
-
         //  Dynamic data passed to view
         $data = [
             'title' => 'Home Page',
-            'posts' => $posts
         ];
 
         //  Return View
