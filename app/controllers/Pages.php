@@ -11,7 +11,7 @@ class Pages extends Controller
     {
         //  Dynamic data passed to view
         $data = [
-            'title' => 'Home Page',
+            'title' => 'PHP OOP MVC Framework',
         ];
 
         //  Return View
